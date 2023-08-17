@@ -27,6 +27,6 @@ group :development do
   gem "rerun"
   gem "rake"
   gem "rack-test"
-  gem 'files', github: "alexch/files"
+  gem "files", github: "alexch/files" # https://github.com/alexch/files/commit/4938dd85ed79f421b808e8798764661a71cab5a4#diff-d6558d687a262513e91d710f9c3db7a0e04b4f93f9f94f16374a986d92b8139bL102
   gem 'rb-fsevent', :platform => :ruby
 end
