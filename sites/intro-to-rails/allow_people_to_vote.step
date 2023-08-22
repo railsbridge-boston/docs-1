@@ -38,7 +38,7 @@ steps {
     RUBY
 
     message <<-MARKDOWN
-      Verify that upvote route was added successfully by checking the output of `rails routes` or [http://localhost:3000/rails/info](http://localhost:3000/rails/info). You should see a line that looks like this:
+      Verify that upvote route was added successfully by checking the output of `rails routes`. You should see a line that looks like this:
 
       ```
             Prefix Verb   URI Pattern                  Controller#Action
@@ -75,11 +75,8 @@ steps {
   end
 
   step "Confirm your changes in the browser" do
-    message "Go back to <http://localhost:3000/topics> and play."
-    message "Revel in the fact that you didn't have to restart the server to see these changes. Hawt, no?"
+    message "Go back to /topics and play."
   end
 }
-
-insert 'consider_deploying_again'
 
 next_step "redirect_to_the_topics_list_after_creating_a_new_topic"

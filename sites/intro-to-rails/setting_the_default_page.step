@@ -3,9 +3,9 @@ goals {
   message <<-MARKDOWN
   Now that the structure is complete, let's make the flow work smoothly.
 
-  Currently when you go to <http://localhost:3000> you see the "Welcome aboard" message.
+  Currently when you go to your homepage you see the "Welcome aboard" message.
 
-  It would be easier to use our app if <http://localhost:3000> went directly to the topics list.
+  It would be easier to use our app if the homepage went directly to the topics list.
 
   In this step we'll make that happen and learn a bit about routes in Rails.
   MARKDOWN
@@ -14,7 +14,7 @@ goals {
 steps {
 
   step "Add a root route" do
-    message "Open the file `config/routes.rb` in an editor (In the InstallFest yesterday, we suggested that you install and use **Atom** as your editor)."
+    message "Open the file `config/routes.rb` in an editor."
 
     message "Look for the line `Rails.application.routes.draw` at the beginning of the file, and add the line `root 'topics#index'` after it. When you are done the start of the file should look like this:"
 
@@ -22,14 +22,10 @@ steps {
 Rails.application.routes.draw do
   root 'topics#index'
     RUBY
-
-    em do
-      message "(Rails 3.x users should add `root to: 'topics#index'` and will need to remove their `public/index.html` file)."
-    end
   end
 
   step "Confirm your changes" do
-    message "Go back to <http://localhost:3000/>. You should be taken to the topics list automatically."
+    message "Go back to your homepage. You should be taken to the topics list automatically."
   end
 }
 
@@ -67,13 +63,13 @@ explanation {
   ````
   This shows all the URLs your application responds to. The code that starts with colons are variables so :id means the id number of the record. The code in parenthesis is optional.
 
-  You can also get this information on your site in development. Go to <a href="http://localhost:3000/rails/info">http://localhost:3000/rails/info</a> and you'll see something like this:
+  You can also get this information on your site in development. Go to /rails/info and you'll see something like this:
 
   <img src='img/rails4_rails_info_routing.png' alt='Screenshot of browser-based Rails routing info page'>
 
-  You'll also see that table in whenever you try to access an invalid route (try <a href="http://localhost:3000/sandwich">http://localhost:3000/sandwich</a>)
+  You'll also see that table in whenever you try to access an invalid route (try /sandwich)
 
-### Exploring Routes (optional)
+### Exploring Routes
 
   Now you can have a look at the paths that are available in your app.
   Let's try looking at one of the topics routes we just generated.
@@ -95,4 +91,4 @@ explanation {
 
 insert 'consider_deploying'
 
-next_step "voting_on_topics"
+next_step "rails_architecture"

@@ -36,32 +36,44 @@ day. Probably.
 
 ### Requirements
 
-We're going to be working with:
+To get through this course, you'll need a free Github account.
 
-* Ruby 2.3 or greater installed via RVM (Mac or Linux) or RailsInstaller (Windows)
-* Rails 5.0.x
-* Bundler
-* SQLite
-* The text editor of your choice
+<a href="https://github.com/signup" target="_blank">Create a free Github account</a> by filling the signup form.
+<img class="screenshot" src="./img/codespaces1.png" />
 
-Everything should be set up the night before during our
-install-fest. Please ensure you have everything working _before_ you
-show up for RailsBridge on Saturday.
+On the next screen, you can click "skip personalization" on the bottom to continue.<br>
+<img class="screenshot" src="./img/codespaces2.png" />
 
-You can verify that you have everything working by trying this out in your terminal:
+<p>
+    Once you are signed into Github, you'll need to create a <strong>repository</strong> - a new programming project. <br><br>
+    To do that,
+    <a href="https://github.com/railsbridge-boston/start/generate" target="_blank">Create a new repository</a> from the Railsbridge template.
+    You can pick any name you like, or accept the default suggestion. You can also decide if you want your code to be public
+    for anyone to see, or private. <br><br>Leave the "Include all branches" option unchecked, then click <strong>Create repository</strong>.<br>
+    <img class="screenshot" src="./img/codespaces5.png" />
+</p>
+<p>
+    It may take a moment for your repository to be generated.<br>
+    <img class="screenshot" src="./img/codespaces6.png" />
+</p>
+<p>
+    When it's finished, you'll be taken to a page that looks like this. Click on the green <strong>Code</strong> button,
+    then click <strong>Create codespace on main</strong>. This will be our code editor.<br>
+    <img class="screenshot" src="./img/codespaces7.png" />
+</p>
+<p>
+    This will begin setting up the editor in your browser. It may take a minute or two.<br>
+    <img class="screenshot" src="./img/codespaces8.png" />
+</p>
+<p>
+    The editor will automatically set up like this once it's ready.<br>
+    <img class="screenshot" src="./img/codespaces9.png" />
+</p>
 
-<div class="console"><pre>
-$ irb
->> 1 + 2
-=> 3
->> require "active_support"
-=> true
->> exit
-$
-</pre>
-</div>
+<p>
+    Congratulations! You're ready to start coding.
+</p>
 
-If you can do that, you are probably good to go.
 MARKDOWN
 
 insert 'working_effectively_and_efficiently'
