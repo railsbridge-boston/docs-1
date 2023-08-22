@@ -2,9 +2,9 @@
 
 We highly recommend you do the following:
 
-* Bring up your terminal and open 2 tabs:
-  * One is for regular terminal stuffs
-  * One will be for IRB (a.k.a. Rails console). We'll explain later.
+* In your codespace you will want to open 2 terminal tabs::
+  * One will be for executing terminal commands and using the Rails console.
+  * One will be for running your server, so you can test your app as you code (you can't use the terminal for anything else when the server is running).
 * Open your browser fresh or hide any windows you already have open.
   * Bring up one window with two tabs
     * One for this content

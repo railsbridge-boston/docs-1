@@ -51,3 +51,5 @@ Models, Views and Controllers each have specific jobs.  Separating responsibilit
   If you want to learn more about Rails Architecture, you may want to watch this video explanation (3 min 30 sec) [MVC architecture *Youtube*](https://www.youtube.com/watch?v=eTdVkgF_Slo)
   MARKDOWN
 }
+
+next_step "voting_on_topics"
