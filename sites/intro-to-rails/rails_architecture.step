@@ -1,7 +1,5 @@
 goals {
 
-  goal "Create a database table for topics with a title and a description"
-
   message "In this step we'll learn a bit about Rails architecture. By the end of this step you should understand the following concepts:"
 
   ul {
