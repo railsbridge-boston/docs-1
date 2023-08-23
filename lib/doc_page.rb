@@ -41,7 +41,7 @@ class DocPage < Html5Page
   end
 
   def git_url
-    "https://github.com/railsbridge/docs/blob/master/sites/#{@locale}/#{site.name}/#{file_name}"
+    "https://github.com/railsbridge-boston/docs/blob/master/sites/#{@locale}/#{site.name}/#{file_name}"
   end
 
   def src_url
@@ -68,8 +68,11 @@ class DocPage < Html5Page
     nav(class: "top cf", role: "navigation") {
 
       div(class: "navbar-header cf title") {
+        a(href: "/") {
+          span("RailsBridge Boston ", class: "brand")
+        }
+        span(" > ")
         a(href: "/#{site.name}") {
-          span("RailsBridge ", class: "brand")
           text site_title
         }
       }
@@ -120,14 +123,14 @@ class DocPage < Html5Page
       end
       p do
         text "If you have a suggestion for improving the docs, please make a "
-        a "pull request ", href: "https://github.com/railsbridge/docs"
+        a "pull request ", href: "https://github.com/railsbridge-boston/docs"
         text "or "
-        a "drop us a note ", href: "https://github.com/railsbridge/docs/issues/new"
+        a "drop us a note ", href: "https://github.com/railsbridge-boston/docs/issues/new"
         text "via GitHub Issues (no technical knowledge required)."
       end
       p do
         text "Source: "
-        url "https://github.com/railsbridge/docs"
+        url "https://github.com/railsbridge-boston/docs"
       end
     }
   end
