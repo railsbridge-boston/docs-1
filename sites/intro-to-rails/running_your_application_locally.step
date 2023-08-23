@@ -5,16 +5,21 @@ end
 
 steps do
   step do
-    message "Make sure that you're in the `suggestotron` folder. You can type `pwd` (**p**rint **w**orking **d**irectory) in the terminal to see what folder you are in."
 
     console "rails server"
     message "This will print some stuff and stay running forever, printing more stuff
 every time you visit a page in your app."
   end
   step do
-    text "Point your web browser to "
-    url "http://localhost:3000"
-    message "See your web app actually running!"
+    message <<-MARKDOWN
+    You should see a notification appear in the bottom right corner of your editor.
+
+    Click on the *Open in Browser* button in the notification to navigate to your app.
+    MARKDOWN
+    
+    img src: "img/open-in-browser.png", alt: "Screenshot of the 'open in browser' notification."
+
+    message "If you don't see a notification on the bottom right corner of your editor, click the \"bell\" icon to bring it back up."
   end
 
   step do
