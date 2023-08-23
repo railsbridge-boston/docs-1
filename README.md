@@ -1,10 +1,10 @@
-# The RailsBridge Documentation Project
+# The RailsBridge Boston Documentation Project
 
-[![Build Status](https://travis-ci.org/railsbridge/docs.png)](https://travis-ci.org/railsbridge/docs)
+[![Ruby](https://github.com/railsbridge-boston/new-docs/actions/workflows/ruby.yml/badge.svg)](https://github.com/railsbridge-boston/new-docs/actions/workflows/ruby.yml)
 
 ## Overview
 
-This is a Sinatra app, deployed at <http://docs.railsbridge.org>. The RailsBridge documentation project is home to a few subprojects, including the RailsBridge installfest instructions, which leads students through the various complicated setup instructions for getting Ruby, Rails, Git, etc. installed on their computer (whatever combination of computer, OS, and version they happened to bring to the workshop!), as well as the RailsBridge workshop "Suggestotron" curriculum.
+This is a Sinatra app, deployed at <https://docs.railsbridgeboston.org>. The RailsBridge documentation project is home to a few subprojects, including the RailsBridge installfest instructions, which leads students through the various complicated setup instructions for getting Ruby, Rails, Git, etc. installed on their computer (whatever combination of computer, OS, and version they happened to bring to the workshop!), as well as the RailsBridge workshop "Suggestotron" curriculum.
 
 Each subproject (a "site") comprises files stored under the "sites" directory; for instance, the installfest instructions are located at ROOT/sites/en/installfest, while the intro rails curriculum can be found under ROOT/sites/en/intro-to-rails. (The "en" means "English" -- see "Locales" below.)
 
@@ -56,13 +56,13 @@ Just make sure the server responds to a locale subdomain: `http://es.railsbridge
 
 ### Temporary Testing
 
-Use a `locale` or `l` parameter: `http://docs.railsbridge.org/?l=es`.
+Use a `locale` or `l` parameter: `http://docs.railsbridgeboston.org/?l=es`.
 
 Note that in this mode, links are not rewritten, so if they fail you will have to manually add the parameter again.
 
 ## Contributing
 
-Check out [CONTRIBUTING.md](CONTRIBUTING.md) to see how to join our [list of contributors](https://github.com/railsbridge/docs/contributors)!
+Check out [CONTRIBUTING.md](CONTRIBUTING.md) to see how to join our [list of contributors](https://github.com/railsbridge-boston/docs/contributors)!
 
 ## License
 
@@ -73,5 +73,5 @@ The code is licensed under an [MIT license](http://opensource.org/licenses/MIT),
 ## Other Resources
 
 - [StepFile Reference](step_file_reference.md)
-- Workshop organizers: See http://docs.railsbridge.org/workshop for example slide decks you can use in your opening/closing presentations.
+- Workshop organizers: See http://docs.railsbridgeboston.org/workshop for example slide decks you can use in your opening/closing presentations.
 
