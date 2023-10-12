@@ -56,7 +56,7 @@ end
 
     tip "`my_topic` here could have been any variable name, but we'll stick with `my_topic` for consistency."
 
-    console_with_message "Change the title of that topic to something else:", "my_topic.update_attributes(title: 'Edited in the console')"
+    console_with_message "Change the title of that topic to something else:", "my_topic.update(title: 'Edited in the console')"
 
     console_with_message "Add a vote to that topic:", "my_topic.votes.create"
 
@@ -85,7 +85,7 @@ end
         ul class: 'no-style-type' do
           li "my_topic.title"
           li "my_topic.title = 'New title'"
-          li "my_topic.update_attributes(title: 'New title')"
+          li "my_topic.update(title: 'New title')"
           li "my_topic.save"
           li "my_topic.save!"
           li "my_topic.destroy"
