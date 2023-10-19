@@ -47,22 +47,43 @@ steps {
     MARKDOWN
   end
 
-  step "Add the button to the view" do
+  step "Add the button to the view and add a table format" do
 
-    message "Edit `app/views/topics/index.html.erb` so that the bottom loop looks like this:"
+    message "Edit `app/views/topics/index.html.erb` so that it looks like this:"
 
     source_code :erb, <<-HTML
-      <% @topics.each do |topic| %>
-        <tr>
-          <td><%= topic.title %></td>
-          <td><%= topic.description %></td>
-          <td><%= pluralize(topic.votes.count, "vote") %></td>
-          <td><%= button_to '+1', upvote_topic_path(topic), method: :post %></td>
-          <td><%= link_to 'Show', topic %></td>
-          <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
-          <td><%= link_to 'Destroy', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        </tr>
-      <% end %>
+      <p style="color: green"><%= notice %></p>
+
+      <h1>Topics</h1>
+
+      <div id="topics">
+        <table>
+          <tr>
+          <th> Topic </th>
+          <th> Description</th>
+          <th> Votes count</th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+          </tr>
+          
+          <% @topics.each do |topic| %>
+            <tr>
+              <td><%= topic.title %></td>
+              <td><%= topic.description %></td>
+              <td><%= pluralize(topic.votes.count, "vote") %></td>
+              <td><%= button_to '+1', upvote_topic_path(topic), method: :post %></td>
+              <td><%= link_to 'Show', topic %></td>
+              <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
+              <td><%= link_to 'Destroy', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+
+        </table>
+      </div>
+
+      <%= link_to "New topic", new_topic_path %>
     HTML
 
     message <<-MARKDOWN
