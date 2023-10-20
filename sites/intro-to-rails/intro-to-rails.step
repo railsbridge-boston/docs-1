@@ -49,7 +49,7 @@ On the next screen, you can click "skip personalization" on the bottom to contin
     To do that,
     <a href="https://github.com/railsbridge-boston/start/generate" target="_blank">Create a new repository</a> from the Railsbridge template.
     You can pick any name you like, or accept the default suggestion. You can also decide if you want your code to be public
-    for anyone to see, or private. <br><br>Leave the "Include all branches" option unchecked, then click <strong>Create repository</strong>.<br>
+    for anyone to see, or private. <br><br>Click <strong>Create repository</strong> to continue.<br>
     <img class="screenshot" src="./img/codespaces5.png" />
 </p>
 <p>
@@ -58,11 +58,12 @@ On the next screen, you can click "skip personalization" on the bottom to contin
 </p>
 <p>
     When it's finished, you'll be taken to a page that looks like this. Click on the green <strong>Code</strong> button,
+    make sure you're on the "Codespaces" tab, 
     then click <strong>Create codespace on main</strong>. This will be our code editor.<br>
     <img class="screenshot" src="./img/codespaces7.png" />
 </p>
 <p>
-    This will begin setting up the editor in your browser. It may take a minute or two.<br>
+    This will begin setting up the editor in your browser. This usually takes at least 2 - 3 minutes.<br>
     <img class="screenshot" src="./img/codespaces8.png" />
 </p>
 <p>
