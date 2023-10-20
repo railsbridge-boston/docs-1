@@ -89,6 +89,4 @@ explanation {
   MARKDOWN
 }
 
-insert 'consider_deploying'
-
 next_step "rails_architecture"
