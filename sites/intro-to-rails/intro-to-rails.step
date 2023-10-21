@@ -47,7 +47,7 @@ On the next screen, you can click "skip personalization" on the bottom to contin
 <p>
     Once you are signed into Github, you'll need to create a <strong>repository</strong> - a new programming project. <br><br>
     To do that,
-    <a href="https://github.com/railsbridge-boston/start/generate" target="_blank">Create a new repository</a> from the Railsbridge template.
+    <a href="https://github.com/railsbridge-boston/start/generate" target="_blank">create a new repository from the RailsBridge template</a>.
     You can pick any name you like, or accept the default suggestion. You can also decide if you want your code to be public
     for anyone to see, or private. <br><br>Click <strong>Create repository</strong> to continue.<br>
     <img class="screenshot" src="./img/codespaces5.png" />
@@ -58,7 +58,7 @@ On the next screen, you can click "skip personalization" on the bottom to contin
 </p>
 <p>
     When it's finished, you'll be taken to a page that looks like this. Click on the green <strong>Code</strong> button,
-    make sure you're on the "Codespaces" tab, 
+    make sure you're on the "Codespaces" tab,
     then click <strong>Create codespace on main</strong>. This will be our code editor.<br>
     <img class="screenshot" src="./img/codespaces7.png" />
 </p>
