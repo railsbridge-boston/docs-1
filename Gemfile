@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '3.2.2'
+ruby file: ".ruby-version"
 
 gem 'activesupport'
 gem "erector", github: "erector/erector"
