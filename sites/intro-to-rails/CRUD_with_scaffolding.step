@@ -25,7 +25,7 @@ steps {
     message "Point your browser to /topics"
     message "You should see the \"Topics\" page with headers for title and description, and a link to add a new topic:"
 
-    img src: "img/Seattle_topic_list_page.png", alt: "Screenshot of topic list page"
+    img src: "img/Seattle_topic_list_page.png", alt: "Screenshot of topic list page", class: "screenshot"
   }
 
   step {
@@ -35,7 +35,7 @@ steps {
   * You should see a page showing your new topic with a message that your topic was successfully created:
     MARKDOWN
 
-    img alt: "Screenshot of topic detail page with confirmation message", src: "img/Seattle_topic_created.png"
+    img alt: "Screenshot of topic detail page with confirmation message", src: "img/Seattle_topic_created.png", class: "screenshot"
   }
 
   step {
@@ -43,7 +43,7 @@ steps {
       * Click "Back to topics"
       * You should see the topic list again, this time with your new topic listed:
 
-      ![Screenshot of topic list with new topic](img/Seattle_list_with_topic.png)
+      img alt: "Screenshot of topic list with new topic", src: "img/Seattle_list_with_topic.png", class: "screenshot"
 
       * Click on one of the topics by clicking "Show this topic" and try the "Show", "Edit", and "Destroy" links to see what they do
       * You've created a basic database driven web site, congrats!
