@@ -1,4 +1,4 @@
-img src: "img/Start_page.png", alt: "Screenshot of a Ruby on Rails default home page"
+img src: "img/Start_page.png", alt: "Screenshot of a Ruby on Rails default home page", class: "screenshot"
 
 goals do
   goal "Create Your New Application"

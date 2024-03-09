@@ -79,6 +79,22 @@ The editor will automatically set up like this once it's ready.
 
 Congratulations! You're ready to start coding.
 
+Resuming
+
+After some time with no activity, your codespace will shut down. If the tab is still open, it'll look like this: 
+
+<img class="screenshot" src="./img/resume-codespace-a.png" />
+
+Click on the "Restart Codespace" button to get back into your editor.
+
+If your browser is closed and you need to get back to it, log into https://github.com and 
+click the link on the left to navigate back to your repository:
+
+<img class="screenshot" src="./img/resume-codespace-b1.png" />
+
+On your repository page, click on "Code", ensure you're on the "Codespaces" tab, then click on the codespace you previously created (it'll have a randomly generated name).
+
+<img class="screenshot" src="./img/resume-codespace-b2.png" />
 
 MARKDOWN
 

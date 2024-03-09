@@ -80,6 +80,9 @@ img {
   display: block; /* otherwise centering doesn't happen */
   max-width: 100%;
 }
+img.screenshot {
+  box-shadow: #666 1px 1px 5px;
+}
 
 .model-diagram {
   margin: 0 auto;
